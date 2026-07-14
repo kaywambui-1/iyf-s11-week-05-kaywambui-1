@@ -3,7 +3,7 @@ const mainHeader = document.getElementById("main-header");
 console.log("getElementById:", mainHeader);
 
 // getElementsByClassName - returns HTMLCollection (live)
-const contentsItems = document.getElementsByClassName("content");
+const contentItems = document.getElementsByClassName("content");
 console.log("getElementsByClassName:", contentItems);
 
 // getElementsByTagName - returns HTMLCollection (live)
