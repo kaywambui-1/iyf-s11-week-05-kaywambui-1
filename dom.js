@@ -1,22 +1,22 @@
 // getElementById - returns single element
-const header = document.getElementById("main-header");
-console.log("getElementById:", header);
+const mainHeader = document.getElementById("main-header");
+console.log("getElementById:", mainHeader);
 
 // getElementsByClassName - returns HTMLCollection (live)
-const contents = document.getElementsByClassName("content");
-console.log("getElementsByClassName:", contents);
+const contentsItems = document.getElementsByClassName("content");
+console.log("getElementsByClassName:", contentItems);
 
 // getElementsByTagName - returns HTMLCollection (live)
-const paragraphs = document.getElementsByTagName("p");
-console.log("getElementsByTagName:", paragraphs);
+const allParagraphs = document.getElementsByTagName("p");
+console.log("getElementsByTagName:", allParagraphs);
 
 // querySelector - returns first match
-const firstLink = document.querySelector(".nav-link");
-console.log("querySelector:", firstLink);
+const firstNavigationLink = document.querySelector(".nav-link");
+console.log("querySelector:", firstNavigationLink);
 
 // querySelectorAll - returns NodeList (static)
-const allLinks = document.querySelectorAll(".nav-link");
-console.log("querySelectorAll:", allLinks);
+const navigationLinks = document.querySelectorAll(".nav-link");
+console.log("querySelectorAll:", navigationLinks);
 
 // Practice: Select these elements
 // 1. The h1 element
