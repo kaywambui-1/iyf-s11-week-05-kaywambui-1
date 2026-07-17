@@ -52,6 +52,10 @@ console.log("querySelector:", firstNavLink);
 
 // 7. The last paragraph
 const paragraphs = document.querySelectorAll("p");
-const lastaParagraph = paragraphs[paragraphs.length - 1];
+const lastParagraph = paragraphs[paragraphs.length - 1];
 
 console.log(lastParagraph);
+
+
+
+
