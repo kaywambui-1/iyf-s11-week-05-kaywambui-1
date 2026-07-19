@@ -1,0 +1,99 @@
+/* Page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Form */
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+
+/* Input */
+input {
+    width: 250px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* All Buttons */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Submit Button */
+#submit {
+    background-color: #007bff;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
+/* Counter Section */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#count {
+    color: #e63946;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Counter Buttons */
+#increase {
+    background-color: #28a745;
+}
+
+#increase:hover {
+    background-color: #218838;
+}
+
+#decrease {
+    background-color: #dc3545;
+}
+
+#decrease:hover {
+    background-color: #c82333;
+}
+
+#reset {
+    background-color: #6c757d;
+}
+
+#reset:hover {
+    background-color: #5a6268;
+}
+
+#increase,
+#decrease,
+#reset {
+    margin: 10px 5px;
+}
